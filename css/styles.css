@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&display=swap');
+
+
+
+body {
+  background-color: black;
+ font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+
+a:link {
+  color: lime;
+  text-decoration: none;
+}
+
+h2 {
+  color: pink;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: end;
+  align-items: center;
+}
+
+
+ul li a:visited {
+  color: pink;
+  list-style: none;
+}
+
+li {
+  color: pink;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 700;
+}
+
+
+
+.link {
+  display: inline-block;
+  border-radius: 13px;
+  padding: 14px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  gap: 13px;
+  background-color: #fad54f;
+  text-decoration: none;
+  margin: 3rem;
+  color: black;
+}
+
+button {
+  border: 3px solid black;
+  border-radius: 12px;
+  padding: 10px;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  gap: 9px;
+  background-color: #fad54f;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 800;
+}
+
+.button-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+
+ul li a:visited {
+  color: green;
+  list-style: none;
+}
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  /* nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  } */
+  
+  
+.button-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+}
